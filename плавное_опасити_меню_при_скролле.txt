@@ -1,0 +1,43 @@
+ <div class="navbar navbar_menu">
+	<div class="navbar__color"></div>
+	<div class="navbar__zindexholder">
+		Menu
+	</div>
+</div>
+
+
+.navbar__color{
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #FFF;
+	opacity: 0;
+}
+.navbar__zindexholder{
+	position: relative;
+	z-index: 200000;
+}
+
+
+$(window).scroll(function () {
+			if(!navbar.hasClass('navbar_menu_onTop_opened')){
+				var speed = 500;
+				var offsMax = 400;
+				var op = $('.navbar__color').css('opacity');
+				if(window.pageYOffset<offsMax){
+					op = (((window.pageYOffset * 100)/ offsMax)/100);
+					$('.navbar__color').stop(true, true).animate({opacity: op}, speed);
+				} else {
+					$('.navbar__color').stop(true, true).animate({opacity: 1}, speed);
+				}
+				if(window.pageYOffset>(offsMax/3)) {
+					navbar.addClass('navbar-fixed-top');
+				} else {
+					navbar.removeClass('navbar-fixed-top');
+				}
+			}
+});
+
