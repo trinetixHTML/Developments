@@ -51,22 +51,26 @@ _(based on https://github.com/necolas/idiomatic-css/tree/master/translations/ru-
 7. Ставьте закрывающую скобку на одной вертикальной линии с первым символом в селекторе (*).  
 8. Разделяйте правила пустой строкой.  
 
-> .selector-1,  
-> .selector-2,  
-> .selector-3 {  
->     -webkit-box-sizing: border-box;  
->     -moz-box-sizing: border-box;  
->     box-sizing: border-box;  
->     display: block;  
->     color: #333;  
->     background: #fff;  
+```css
+.selector-1,  
+.selector-2,  
+.selector-3 {  
+    -webkit-box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;  
+    display: block;  
+    color: #333;  
+    background: #fff;  
 }
+```
 
 
-9. Последовательно используйте двойные и одинарные кавычки. Двойные -- до открытия блока стилей, одинарные -- внутри:  
-> a [type="attr"] {  
-> ____content: ''.  
-> }
+9. Последовательно используйте двойные и одинарные кавычки. Двойные -- до открытия блока стилей, одинарные -- внутри:
+```css
+a [type="attr"] {  
+	content: ''.  
+}
+```
 
 _(*) -- за исключением работы в конкретных препроцессорах_
 
