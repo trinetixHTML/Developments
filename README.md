@@ -1,5 +1,4 @@
 # Общие стандарты верстки и написания однородного CSS-кода
-_(based on https://github.com/necolas/idiomatic-css/tree/master/translations/ru-RU)_
 
 Этот документ не закончен, и новые идеи всегда приветствуются. Пожалуйста, внесите свой вклад.
 
@@ -16,6 +15,7 @@ _(based on https://github.com/necolas/idiomatic-css/tree/master/translations/ru-
 9. [Совместная работа наод одним проектом](#team)
 10. [Нелинейная верстка](#nonlinearly)
 11. [Прочее](#other)
+[Источники](#sources)
 
 <a name="general-principles"></a>
 ## 1. Общие принципы
@@ -222,3 +222,7 @@ _(*) -- за исключением работы в конкретных пре�
 ```html
 <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 ```
+<a name="sources"></a>
+## Источники
+1. _Based on https://github.com/necolas/idiomatic-css/tree/master/translations/ru-RU_
+2. _БЭМ http://ru.bem.info/method/_
