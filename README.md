@@ -15,7 +15,7 @@
 9. [Совместная работа наод одним проектом](#team)
 10. [Нелинейная верстка](#nonlinearly)
 11. [Прочее](#other)
-[Источники](#sources)
+12. [Источники](#sources)
 
 <a name="general-principles"></a>
 ## 1. Общие принципы
@@ -223,6 +223,6 @@ _(*) -- за исключением работы в конкретных пре�
 <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 ```
 <a name="sources"></a>
-## Источники
+## 12. Источники
 1. _Based on https://github.com/necolas/idiomatic-css/tree/master/translations/ru-RU_
 2. _БЭМ http://ru.bem.info/method/_
