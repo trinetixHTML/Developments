@@ -6,12 +6,13 @@ _(based on https://github.com/necolas/idiomatic-css/tree/master/translations/ru-
 ## Содержание
 
 1. [Общие принципы](#general-principles)
-2. [Методология](#metodology)
-3. [Отступы](#whitespace)
-4. [Препроцессоры] (#preprocessor)
-5. [Форматирование](#format)
-6. [Именование](#naming)
-8. [Организация кода](#organization)
+2. [Отступы](#whitespace)
+3. [Форматирование](#format)
+4. [Именование](#naming)
+5. [Препроцессоры] (#preprocessor)
+6. [Организация кода](#organization)
+7. [Методология](#metodology)
+8. [Совместная работа наод одним проектом] (#team)
 
 <a name="general-principles"></a>
 ## 1. Общие принципы
