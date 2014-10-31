@@ -172,25 +172,25 @@ div class="footer"
 
 Пример:
 ```css
-@import "_sprite"
-@import "_variables"
-@import "_functions"
-@import "_normalize"
-@import "bootstrap"
-@import "userInterface"
-@import "layout"
-
-@import "header"
-@import "header__nav"
-
-@import "contactsInfo"
-
-@import "verticalMenu"
-
-
-@import "footer"
-@import "footer__menu"
-@import "footer__menu__adaptive"
+@import "_sprite"  
+@import "_variables"  
+@import "_functions"  
+@import "_normalize"  
+@import "bootstrap"  
+@import "userInterface"  
+@import "layout"  
+  
+@import "header"  
+@import "header__nav"  
+  
+@import "contactsInfo"  
+  
+@import "verticalMenu"  
+  
+  
+@import "footer"  
+@import "footer__menu"  
+@import "footer__menu__adaptive"  
 ```
 
 <a name="team"></a>
@@ -199,8 +199,8 @@ div class="footer"
 * Чтобы исключить в принципе возможность конфликтов, блоки разносятся в отдельные файлы стилей. Имена файлов задаются методологией написания имен классов
 * Адаптация блоков также через подключение отдельного файла адаптаций
 ```css
-@import "footer"
-@import "footer_adaptive"
+@import "footer"  
+@import "footer_adaptive"  
 ```
 * В исключительных ситуациях, когда над одним файлом стилей нужно работать одновременно двум и более кодерам, подключаем личный файл. По окончании работы мержим с основным
 * Для визуального контроля, личный файл стилей сопровождается ником разработчика в кавычках перед названием блока:
