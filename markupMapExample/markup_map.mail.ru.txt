@@ -2,13 +2,12 @@
 	.topLiner__banner
 	.ico ico_close ico_small
 
-.projectsList
-	._floatRight
-		.dropList__caller
-			i.ico ico_arrDown ico_small
-		.dropList_popup dropList_popup_right
+.dropList._floatRight
 	.dropList__caller
-	.dropList_popup
+		i.ico ico_arrDown ico_small
+	.dropList__popup dropList__popup_right
+	.dropList__caller
+	.dropList__popup
 		.gridCol_1/3
 			.hoveredBlock
 		.gridCol_1/3
