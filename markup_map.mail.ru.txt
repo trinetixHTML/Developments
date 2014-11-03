@@ -1,0 +1,106 @@
+.topLiner
+	.topLiner__banner
+	.ico ico_close ico_small
+
+.projectsList
+	._floatRight
+		.dropList__caller
+			i.ico ico_arrDown ico_small
+		.dropList_popup dropList_popup_right
+	.dropList__caller
+	.dropList_popup
+		.gridCol_1/3
+			.hoveredBlock
+		.gridCol_1/3
+		.gridCol_1/3
+		.accentedProjects
+			.hoveredBlock ico_small ico ico_mailRu
+			...
+.row
+	.gridCol_1/5
+		.mailUserInformer
+			._floatRight
+				.ico ico_small ico_cloud
+				.ico ico_small ico_calendar
+				
+			.fontSizeXL ico ico_offsetLeft ico_big ico_active ico_mail
+			
+			.mailSelector
+				.mailSelector__logout
+				.interactiveLink dropListCaller
+					i.ico ico_small ico_arrDown
+				.dropList__caller
+			
+			.userMailOptions
+				.userAvatar _floatLeft
+				i.ico ico_small ico_mail
+				i.ico ico_small ico_edit
+			
+			.mailUserInformer__bottom
+				a + i.ico ico_small ico_newUserAdd
+
+		.fontSizeXL ico ico_offsetLeft ico_big ico_project_mailRu
+		.fontSizeXL ico ico_offsetLeft ico_big ico ico_project_moiMir
+		.row
+			.gridCol_1/4
+			.gridCol_1/4
+			.gridCol_1/4
+			.gridCol_1/4
+
+		.fontSizeXL ico ico_offsetLeft ico_big ico_project_odoklassniki
+		.fontSizeXL ico ico_offsetLeft ico_big ico_project_icq
+		.fontSizeXL ico ico_offsetLeft ico_big ico_project_money
+		.fontSizeXL ico ico_offsetLeft ico_big ico_project_sailer
+	.gridCol_4/5
+		.search
+			.fontSizeXL
+			.row
+				.inputText inputText-big
+				.btn btn-big  btn-orange
+		.row
+			.gridCol_3/5
+				.tabs
+					.tabs__item tabs__item_more _floatRight dropListCaller
+						.dropList_popup dropList_popup_right
+					.tabs__item tabs__item_active
+				.tabsContentHolder
+					.tabsContentHolder__item
+						.newsList
+							.newsList__firstItem
+				.banner
+					.banner__pic
+					.banner__title
+					.banner__text
+					.banner__signature
+				.row cityInformer
+					.cityInformer__cityName fontSizeXL interactiveLink black popup_caller
+					.realtimeTime
+					.row
+						.cityInformer__weather gridCol_1/4
+							.ico ico_xl ico_weather ico_weather_options _floatLeft
+							.fontSizeXL
+						.cityInformer__currencyExhange gridCol_1/4
+							.fontSizeS _colorRed
+							
+						.cityInformer__horoscope gridCol_2/4
+							.ico ico_xl ico_horoscope ico_horoscope_options _floatLeft
+					.row
+						.gridCol_1/4
+						.gridCol_1/4
+						.gridCol_2/4
+			.gridCol_2/5
+				.banner banner_300x300
+				.gamesPromoter
+					.row
+						.fontSizeXL
+						.gridCol_1/2
+							.ico ico_game ico_game_50x50
+							.ico ico_game ico_game_50x50
+						.gridCol_1/2
+							.ico ico_game ico_game_50x50
+							.ico ico_game ico_game_50x50
+					.row
+						.btn btn_gray btn_bordered btn_offsetLeft
+.bottomLiner
+	.inlineNavigation
+	.inlineNavigation _floatRight
